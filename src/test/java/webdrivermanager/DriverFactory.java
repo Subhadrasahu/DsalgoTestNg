@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,7 +17,6 @@ public class DriverFactory {
 	/*This method is used to initialize the thread local driver on the basis of given browser
 	 * this will reurn tldriver
 	 */
-	    
 	public WebDriver init_driver(String browser) {
 		
 		System.out.println("browser value is :" + browser);
@@ -54,6 +54,16 @@ public class DriverFactory {
 		return tlDriver.get();
 		
 	}
+	
+	public void quitDriver() {
+		
+		if(getDriver() != null) {
+			
+			getDriver().quit();
+			tlDriver.remove();
+		}
+		
+	        }
 }
 
 
