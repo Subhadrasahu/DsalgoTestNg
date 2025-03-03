@@ -51,11 +51,13 @@ public class ExcelfileReader {
 		int totalRow = sheet.getPhysicalNumberOfRows();
 		List<Map<String, String>> excelRows = new ArrayList<Map<String, String>>();
 		int headerRowNumber = getHeaderRowNumber(sheet);
+		
 		if (headerRowNumber != -1) {
 			int totalColumn = sheet.getRow(headerRowNumber).getLastCellNum();
 			int setCurrentRow = 1;
-			for (int currentRow = setCurrentRow; currentRow <= totalRow; currentRow++) {
+			for (int currentRow = setCurrentRow; currentRow < totalRow; currentRow++) {
 				row = getRow(sheet, sheet.getFirstRowNum() + currentRow);
+				
 				LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<String, String>();
 				for (int currentColumn = 0; currentColumn < totalColumn; currentColumn++) {
 					columnMapdata.putAll(getCellValue(sheet, row, currentColumn));
