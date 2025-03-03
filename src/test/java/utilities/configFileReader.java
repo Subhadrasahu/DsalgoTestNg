@@ -10,7 +10,7 @@ public class configFileReader {
 	public static Properties prop;
 	private static String browserType;
 	
-	public Properties init_prop() {
+	public static Properties init_prop() {
 		prop = new Properties();
 		try {
 			FileInputStream ip = new FileInputStream("src\\test\\resources\\Confg\\confg.properties");
@@ -27,6 +27,13 @@ public class configFileReader {
 		
 		
 	}
+	
+	public static String getProperty(String key) {
+        if (prop == null) {
+            throw new RuntimeException("Properties file not initialized!");
+        }
+        return prop.getProperty(key);
+    }
 
   public String getBrowser() {
 	 browserType = prop.getProperty("browser");
