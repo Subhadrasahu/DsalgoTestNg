@@ -3,12 +3,12 @@ package testNgTests;
 import java.util.Map;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import BaseClass.BaseTest;
 import pageobject.Stackpage;
+import utilities.LoggerLoad;
 import webdrivermanager.DriverFactory;
 
 public class StackTest extends BaseTest{
@@ -26,7 +26,7 @@ public class StackTest extends BaseTest{
 	
 	
 	
-	@Test
+	@Test(priority = 1)
 	public void clickStackfromDropDown() {
 		
 		Home.clickDropdownOption("Stack");
@@ -34,16 +34,16 @@ public class StackTest extends BaseTest{
 		
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void OperationsIN_Stack() {
-		//stack.clickGetStarted();
+		
 		stack.clickOperationsInStack();
 		Assert.assertEquals(stack.getStacktitle(), "Operations in Stack");
 	}
 	
-	@Test
+	@Test(priority = 3)
 	public void  clickTryHere() {
-		//stack.clickGetStarted();
+		
 		stack.clickOperationsInStack();
 		common.clickTryHere();
 		common.clickRunButton();
@@ -74,7 +74,58 @@ public class StackTest extends BaseTest{
 			
 		} 
 		
-		
 	}
+  @Test(priority = 5)
+  public void ClickImplementation() {
+	  
+	  stack.clickImplementation();
+	  Assert.assertEquals(stack.getStacktitle(), "Implementation");
+  }
+  
+  @Test
+  public void Click_TryhereINImplementation() {
+	  
+	  stack.clickImplementation();
+	  common.clickTryHere();
+		common.clickRunButton();
+		Assert.assertEquals(login.isAlertPresent(), true);
+	  
+  }
+  
+  @Test (dataProvider ="TryeditorProvider")
+  public void Invalid_pythonCode(Map<String, String> data) {
+	  
+	  stack.clickImplementation();
+	  common.clickTryHere();
+	  String Pythocode = data.get("Pythoncode"); 
+	  LoggerLoad.info(Pythocode);
+	  common.ValidInvalidtextEditorOperations(Pythocode);
+	  common.clickRunButton();
+	  String expectedalert = data.get("ExpectedAlert");
+		String expectedResult = data.get("ExpectedResult");
+		if(login.isAlertPresent()== true)
+		{
+		
+		String alertmsg =	login.handleAlert();
+		Assert.assertEquals(alertmsg ,expectedalert,expectedResult);
+		}
+		else 
+		{
+			String output = common.getOutput();
+			Assert.assertEquals(output ,expectedResult,expectedalert);
+			
+		} 
+  }
+		
+		@Test
+		public void clickApplication() {
+			
+			stack.clickApplications();
+			common.clickTryHere();
+			common.clickRunButton();
+			Assert.assertEquals(login.isAlertPresent(), true);
+		}
+	  
+  
 
 }
