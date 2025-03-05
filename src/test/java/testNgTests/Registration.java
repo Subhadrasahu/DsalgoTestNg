@@ -49,7 +49,7 @@ public class Registration extends BaseTest{
         //Assert.assertEquals(errorMsg,"password_mismatch:The two password fields didn’t match.");
     }
    
-   @Test(priority = 5)
+   @Test
    public void testRedirectToLoginPage() {
        Register.clickSignInButton();
        String signInPageTitle = Register.getsignpagetitle();
