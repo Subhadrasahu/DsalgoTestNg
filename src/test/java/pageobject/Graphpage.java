@@ -53,6 +53,11 @@ public class Graphpage {
 		return driver.getTitle();
 	   
    }
+     public String getTryHerePageTitle() {
+		
+		return driver.getTitle();
+	}
+     
 	public void clickPracticeQuestions() {
 		driver.findElement(practicequestions).click();
 	}
@@ -65,6 +70,8 @@ public class Graphpage {
 		driver.findElement(Signout).click();
 		
 	}
+
+	
 	}
    
 
