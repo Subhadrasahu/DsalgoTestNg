@@ -24,13 +24,12 @@ public class StackTest extends BaseTest{
 
 	}
 	
-	
-	
 	@Test(priority = 1)
 	public void clickStackfromDropDown() {
 		
 		Home.clickDropdownOption("Stack");
 		Assert.assertEquals(stack.getStacktitle(), "Stack");
+		LoggerLoad.info("user lnds on Stack page");
 		
 	}
 	
@@ -39,6 +38,7 @@ public class StackTest extends BaseTest{
 		
 		stack.clickOperationsInStack();
 		Assert.assertEquals(stack.getStacktitle(), "Operations in Stack");
+		LoggerLoad.info("user lnds on Operations in Stack page");
 	}
 	
 	@Test(priority = 3)
@@ -48,6 +48,7 @@ public class StackTest extends BaseTest{
 		common.clickTryHere();
 		common.clickRunButton();
 		Assert.assertEquals(login.isAlertPresent(), true);
+		LoggerLoad.info("user should see alert popup");
 	}
 	
 	@Test(dataProvider ="TryeditorProvider")
@@ -64,12 +65,14 @@ public class StackTest extends BaseTest{
 		{
 		
 		String alertmsg =	login.handleAlert();
+		LoggerLoad.info("alert message : "+ alertmsg );
 		Assert.assertEquals(alertmsg ,expectedalert,expectedResult);
 		}
 		else 
 		{
 			
 			String output = common.getOutput();
+			LoggerLoad.info("output message : "+ output );
 			Assert.assertEquals(output ,expectedResult,expectedalert);
 			
 		} 
@@ -80,6 +83,7 @@ public class StackTest extends BaseTest{
 	  
 	  stack.clickImplementation();
 	  Assert.assertEquals(stack.getStacktitle(), "Implementation");
+	  LoggerLoad.info("user should land on Implementation page");
   }
   
   @Test
@@ -121,9 +125,11 @@ public class StackTest extends BaseTest{
 		public void clickApplication() {
 			
 			stack.clickApplications();
+			LoggerLoad.info("user should land on Applications page");
 			common.clickTryHere();
 			common.clickRunButton();
 			Assert.assertEquals(login.isAlertPresent(), true);
+			LoggerLoad.info("user should see alert popup");
 		}
 	  
   
