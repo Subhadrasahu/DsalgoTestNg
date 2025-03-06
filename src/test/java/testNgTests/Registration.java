@@ -4,17 +4,19 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import BaseClass.BaseTest;
+import pageobject.Homepage;
 import pageobject.Registrationpage;
+import webdrivermanager.DriverFactory;
 
 public class Registration extends BaseTest{
 	
-
+ public Registrationpage Register;
 	
 	@BeforeMethod
 	public void clickGetstarted() {
 		
 		login.clickGetStartedbutton();
-	
+		Register= new Registrationpage(DriverFactory.getDriver());
 	} 
 	
 	
