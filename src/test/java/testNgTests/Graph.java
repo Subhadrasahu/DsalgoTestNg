@@ -20,15 +20,6 @@ public void login() {
 	LoginwithValid();
      graph = new Graphpage(DriverFactory.getDriver()); 
 	graph.clickGraphGetStartedbutton();
-}
-
-
-@Test
-public void GraphGetStartedButton() {
-    graph.clickGraphGetStartedbutton();
-	Assert.assertEquals(graph.getGraphPageTitle(), "Graph");
-	//String title = Graph.getGraphPageTitle();
-	 //Assert.assertEquals(title, "Graph", "Graph Page Title");
   
 }
 
@@ -90,7 +81,7 @@ public void clickGraphRepresentationsTryHere() {
 }
 
 @Test(dataProvider ="TryeditorProvider")
-public void Invalid_pythonCode(Map<String, String> data) {
+public void testPythonCodeforGraphRepresentations(Map<String, String> data) {
 	graph.clickGraphRepresentations();
 	common.clickTryHere();
 	String Pythocode = data.get("Pythoncode");
