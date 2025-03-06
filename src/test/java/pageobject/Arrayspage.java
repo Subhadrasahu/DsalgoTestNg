@@ -28,11 +28,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 	     By Searchthearray=By.xpath("//a[text()='Search the array']");
 	     By Tryeditor=By.xpath("//span[@class='cm-variable']");
 	     By run=By.xpath("//button[text()='Run']");
-	    By submit=By.xpath("//input[@type='submit' and @value='Submit']");
+	    By submit=By.xpath("//input[@class='button' and @value='Submit']");
+	    ////input[@class='button']
+	    By submitmsg = By.id("output");
 	    By output=By.xpath("//pre[@id='output']");
 	     By MaxConsecutiveOnes=By.xpath("//a[text()='Max Consecutive Ones']");
          By FindNumberswithEvenNumberofDigits=By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
-	     By SquaresofaSortedArray = By.xpath("//a[text()='Squares of a Sorted Array']");
+	     By SquaresofaSortedArray = By.xpath("//a[text()='Squares of  a Sorted Array']");
 	    
 	     //By submitbutton=By.xpath("//input[@type='submit' and @value='Submit']");
 
@@ -194,7 +196,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 	     }
 	     
 	     public String getSubmissionMessage() {
-	    	 return driver.findElement(submit).getText(); 
+	    	 
+	    	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    	    // Wait until the element is visible
+	    	    wait.until(ExpectedConditions.visibilityOfElementLocated(submitmsg));
+	    	   
+	    	 return driver.findElement(submitmsg).getText(); 
 	    	 }
 	     
 	     public String getAlertMessage() {
