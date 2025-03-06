@@ -1,7 +1,10 @@
 package pageobject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 
 
@@ -67,5 +70,12 @@ public class Commonpage {
 		public void textEditorInvalidOperations () {
 			driver.findElement(texteditor).sendKeys("Hello");
 		}
+		
+		public void clearTextEditor() {
+			WebElement element =driver.findElement(texteditor);
+			Actions actions = new Actions(driver);
+			actions.moveToElement(element).click().keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.DELETE).perform();
+		}
+		
 		
 }
