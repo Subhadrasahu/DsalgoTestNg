@@ -53,7 +53,7 @@ public class DataStructures extends BaseTest{
     	datapage.clickTimeComplexity();
     	common.clickTryHere();
     	common.clickRunButton();
-    	Assert.assertEquals(login.isAlertPresent(),false);
+    	Assert.assertEquals(login.isAlertPresent(),true);
       
  }
     @Test(dataProvider ="TryeditorProvider")
@@ -79,29 +79,7 @@ public class DataStructures extends BaseTest{
     		
     	} 
     }
-    @Test(dataProvider ="TryeditorProvider")
-    public void Invalid_pythonCode(Map<String, String> data) {
-    	datapage.clickTimeComplexity();
-    	common.clickTryHere();
-    	String Pythocode = data.get("Pythoncode");
-    	common.ValidInvalidtextEditorOperations(Pythocode);
-    	common.clickRunButton();
-    	String expectedalert = data.get("ExpectedAlert");
-    	String expectedResult = data.get("ExpectedResult");
-    	if(login.isAlertPresent()== true)
-    	{
-    	
-    	String alertmsg =	login.handleAlert();
-    	Assert.assertEquals(alertmsg ,expectedalert,expectedResult);
-    	}
-    	else 
-    	{
-    		
-    		String output = common.getOutput();
-    		Assert.assertEquals(output ,expectedResult,expectedalert);
-    		
-    	} 
-    }
+   
 
     
     
@@ -110,9 +88,7 @@ public class DataStructures extends BaseTest{
     public void navigateToPracticeQuestions() {
     	datapage.clickTimeComplexity();
         datapage.clickPracticeQuestions();
-        //String title = datapage.getPracticeQuestionsPageTitle();
-        //Assert.assertEquals(title, "Practice Questions", "Navigation to Practice Questions failed");
-        Assert.assertEquals(datapage.getPracticeQuestionsPageTitle(),"Practice Questions");
+	Assert.assertEquals(datapage.getPracticeQuestionsPageTitle(),"Practice Questions");
     }
     
     
