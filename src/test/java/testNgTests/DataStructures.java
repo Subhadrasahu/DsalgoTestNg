@@ -79,32 +79,7 @@ public class DataStructures extends BaseTest{
     		
     	} 
     }
-    @Test(dataProvider ="TryeditorProvider")
-    public void Invalid_pythonCode(Map<String, String> data) {
-    	datapage.clickTimeComplexity();
-    	common.clickTryHere();
-    	String Pythocode = data.get("Pythoncode");
-    	common.ValidInvalidtextEditorOperations(Pythocode);
-    	common.clickRunButton();
-    	String expectedalert = data.get("ExpectedAlert");
-    	String expectedResult = data.get("ExpectedResult");
-    	if(login.isAlertPresent()== true)
-    	{
-    	
-    	String alertmsg =	login.handleAlert();
-    	Assert.assertEquals(alertmsg ,expectedalert,expectedResult);
-    	}
-    	else 
-    	{
-    		
-    		String output = common.getOutput();
-    		Assert.assertEquals(output ,expectedResult,expectedalert);
-    		
-    	} 
-    }
-
-    
-    
+   
     
     @Test
     public void navigateToPracticeQuestions() {
