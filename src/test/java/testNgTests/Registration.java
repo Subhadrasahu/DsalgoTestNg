@@ -5,14 +5,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import BaseClass.BaseTest;
 import pageobject.Registrationpage;
+import webdrivermanager.DriverFactory;
 
 public class Registration extends BaseTest{
 	
-
+	protected Registrationpage Register;
 	
 	@BeforeMethod
 	public void clickGetstarted() {
-		
+		Register = new Registrationpage(DriverFactory.getDriver()); 
 		login.clickGetStartedbutton();
 	
 	} 

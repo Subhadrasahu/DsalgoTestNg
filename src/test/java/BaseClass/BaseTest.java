@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 import pageobject.Commonpage;
 import pageobject.Homepage;
 import pageobject.LoginPage;
+import pageobject.Treepage;
 import utilities.ExcelfileReader;
 import utilities.configFileReader;
 import webdrivermanager.DriverFactory;
@@ -30,8 +31,12 @@ public class BaseTest {
 	protected LoginPage login;
 	protected Homepage Home;
 	public Logger logger;
+
 	protected Commonpage common;
+//my change
 	
+	//String expectedmessage;
+
 	
 	
 	@BeforeMethod
@@ -44,8 +49,9 @@ public class BaseTest {
 	    login = new LoginPage(DriverFactory.getDriver());
 	    login.clickGetStartedbutton();
 	    Home = new Homepage(DriverFactory.getDriver());
+
 	    common = new Commonpage(DriverFactory.getDriver());
-	    
+	   
 		
 	}
 	
@@ -55,7 +61,18 @@ public class BaseTest {
 		driverFactory .quitDriver();
     }
 	
-    //@Test
+   
+
+	    
+
+	
+//	@AfterMethod
+//    public void tearDown() {
+//		
+//		driverFactory .quitDriver();
+//    }
+   
+
 	public void LoginwithValid() {
 		
 		//login.clickGetStartedbutton();
@@ -87,6 +104,7 @@ public class BaseTest {
         return data;
     }
     
+
     @DataProvider(name="TryeditorProvider")
     public Object[][] getPythonData() throws InvalidFormatException, IOException{
     	ExcelfileReader reader = new ExcelfileReader();
@@ -97,4 +115,32 @@ public class BaseTest {
     	
     }
     
+//My code
+    
+    @DataProvider(name = "TryEditorDataProvider")
+    public Object[][] getExcelTestDataForEditor(String sheetname, Integer rownumber) throws InvalidFormatException, IOException {
+   	 ExcelfileReader reader = new ExcelfileReader();
+   	 String filepath = configReader.getProperty("FilePath");
+   	 String sheetname1 = configReader.getProperty("sheetName1");
+   	 List<Map<String, String>> excelEditorData = reader.getData(filepath, sheetname1);
+   	 
+    String pythoncode  = excelEditorData.get(rownumber).get("PythonCode");
+	String expectedoutput = excelEditorData.get(rownumber).get("Output");
+	String expectedmessage = excelEditorData.get(rownumber).get("ExpectedMessage");
+	//this.expectedmessage=expectedmessage;
+    //tree.ValidInvalidtextEditorOperations(pythoncode); 	 
+   	 System.out.println("Exceldata" + excelEditorData.size());
+   	 
+   	 return	 convertListTo2DArrayforEditor(excelEditorData);
+    }
+    
+    public Object[][] convertListTo2DArrayforEditor(List<Map<String, String>> list) {
+        Object[][] data = new Object[list.size()][1];
+        for (int i = 0; i < list.size(); i++) {
+            data[i][0] = list.get(i); // Each row gets one Map
+        }
+        System.out.println("data" + data.length);
+        return data;
+    }
+
 }

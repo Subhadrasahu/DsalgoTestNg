@@ -1,17 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-28T12:32:58 EST" name="Default suite" finished-at="2025-02-28T12:32:58 EST" duration-ms="86">
+  <suite started-at="2025-03-05T23:30:00 EST" name="Default suite" finished-at="2025-03-05T23:32:08 EST" duration-ms="128646">
     <groups>
     </groups>
-    <test started-at="2025-02-28T12:32:58 EST" name="Default test" finished-at="2025-02-28T12:32:58 EST" duration-ms="86">
-      <class name="testNgTests.Login">
-        <test-method signature="login()[pri:0, instance:testNgTests.Login@1e0f9063]" started-at="2025-02-28T12:32:58 EST" name="login" finished-at="2025-02-28T12:32:58 EST" duration-ms="27" status="PASS">
+    <test started-at="2025-03-05T23:30:00 EST" name="Default test" finished-at="2025-03-05T23:32:08 EST" duration-ms="128646">
+      <class name="testNgTests.QueueTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:00 EST" name="setup" finished-at="2025-03-05T23:30:04 EST" duration-ms="4007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testNgTests.Login -->
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:04 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:05 EST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_01_PracticeQuestions()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:05 EST" name="TC_01_PracticeQuestions" finished-at="2025-03-05T23:30:06 EST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_PracticeQuestions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:06 EST" name="tearDown" finished-at="2025-03-05T23:30:06 EST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:06 EST" name="setup" finished-at="2025-03-05T23:30:08 EST" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:08 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:09 EST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_01_ImplementationofQueueinPython()[pri:1, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:09 EST" name="TC_01_ImplementationofQueueinPython" finished-at="2025-03-05T23:30:10 EST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_ImplementationofQueueinPython -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:10 EST" name="tearDown" finished-at="2025-03-05T23:30:10 EST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:10 EST" name="setup" finished-at="2025-03-05T23:30:12 EST" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:12 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:13 EST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_02_ImplementationOfBSTPageTryHere()[pri:2, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:13 EST" name="TC_02_ImplementationOfBSTPageTryHere" finished-at="2025-03-05T23:30:14 EST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ImplementationOfBSTPageTryHere -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:14 EST" name="tearDown" finished-at="2025-03-05T23:30:15 EST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:16 EST" name="setup" finished-at="2025-03-05T23:30:18 EST" duration-ms="2065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:18 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:19 EST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationOfBSTPage(java.util.Map)[pri:3, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:19 EST" name="testPythoncodeForImplementationOfBSTPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:30:20 EST" duration-ms="1273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=hello, ExpectedResult=, ExpectedAlert=NameError: name 'hello' is not defined on line 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationOfBSTPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:20 EST" name="tearDown" finished-at="2025-03-05T23:30:21 EST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:21 EST" name="setup" finished-at="2025-03-05T23:30:23 EST" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:23 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:24 EST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationOfBSTPage(java.util.Map)[pri:3, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:24 EST" name="testPythoncodeForImplementationOfBSTPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:30:36 EST" duration-ms="11640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=print("hello"), ExpectedResult=hello, ExpectedAlert=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationOfBSTPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:36 EST" name="tearDown" finished-at="2025-03-05T23:30:37 EST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:37 EST" name="setup" finished-at="2025-03-05T23:30:39 EST" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:39 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:40 EST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_01_Implementationusingcollectionsdeque()[pri:5, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:40 EST" name="TC_01_Implementationusingcollectionsdeque" finished-at="2025-03-05T23:30:40 EST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Implementationusingcollectionsdeque -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:40 EST" name="tearDown" finished-at="2025-03-05T23:30:41 EST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:41 EST" name="setup" finished-at="2025-03-05T23:30:43 EST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:43 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:45 EST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_02_ImplementationusingcollectionsdequeTryHere()[pri:6, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:45 EST" name="TC_02_ImplementationusingcollectionsdequeTryHere" finished-at="2025-03-05T23:30:46 EST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ImplementationusingcollectionsdequeTryHere -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:46 EST" name="tearDown" finished-at="2025-03-05T23:30:46 EST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:46 EST" name="setup" finished-at="2025-03-05T23:30:48 EST" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:48 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:49 EST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationusingcollectionsdequePage(java.util.Map)[pri:7, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:49 EST" name="testPythoncodeForImplementationusingcollectionsdequePage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:30:51 EST" duration-ms="1200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=hello, ExpectedResult=, ExpectedAlert=NameError: name 'hello' is not defined on line 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationusingcollectionsdequePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:51 EST" name="tearDown" finished-at="2025-03-05T23:30:51 EST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:51 EST" name="setup" finished-at="2025-03-05T23:30:53 EST" duration-ms="1918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:53 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:30:54 EST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationusingcollectionsdequePage(java.util.Map)[pri:7, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:30:54 EST" name="testPythoncodeForImplementationusingcollectionsdequePage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:31:06 EST" duration-ms="11747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=print("hello"), ExpectedResult=hello, ExpectedAlert=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationusingcollectionsdequePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:06 EST" name="tearDown" finished-at="2025-03-05T23:31:06 EST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:06 EST" name="setup" finished-at="2025-03-05T23:31:09 EST" duration-ms="2354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:09 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:10 EST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_01_Implementationusingarray()[pri:8, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:10 EST" name="TC_01_Implementationusingarray" finished-at="2025-03-05T23:31:10 EST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Implementationusingarray -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:10 EST" name="tearDown" finished-at="2025-03-05T23:31:11 EST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:11 EST" name="setup" finished-at="2025-03-05T23:31:13 EST" duration-ms="2144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:13 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:14 EST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_02_ImplementationusingarrayTryHere()[pri:9, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:14 EST" name="TC_02_ImplementationusingarrayTryHere" finished-at="2025-03-05T23:31:15 EST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ImplementationusingarrayTryHere -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:15 EST" name="tearDown" finished-at="2025-03-05T23:31:16 EST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:16 EST" name="setup" finished-at="2025-03-05T23:31:18 EST" duration-ms="1963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:18 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:19 EST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationusingarrayPage(java.util.Map)[pri:10, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:19 EST" name="testPythoncodeForImplementationusingarrayPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:31:20 EST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=hello, ExpectedResult=, ExpectedAlert=NameError: name 'hello' is not defined on line 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationusingarrayPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:20 EST" name="tearDown" finished-at="2025-03-05T23:31:21 EST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:21 EST" name="setup" finished-at="2025-03-05T23:31:23 EST" duration-ms="1969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:23 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:24 EST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForImplementationusingarrayPage(java.util.Map)[pri:10, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:24 EST" name="testPythoncodeForImplementationusingarrayPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:31:36 EST" duration-ms="11712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=print("hello"), ExpectedResult=hello, ExpectedAlert=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForImplementationusingarrayPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:36 EST" name="tearDown" finished-at="2025-03-05T23:31:36 EST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:36 EST" name="setup" finished-at="2025-03-05T23:31:39 EST" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:39 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:40 EST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_01_QueueOperations()[pri:11, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:40 EST" name="TC_01_QueueOperations" finished-at="2025-03-05T23:31:41 EST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_QueueOperations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:41 EST" name="tearDown" finished-at="2025-03-05T23:31:41 EST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:41 EST" name="setup" finished-at="2025-03-05T23:31:43 EST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:43 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:44 EST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="TC_02_QueueOperationsTryHere()[pri:12, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:44 EST" name="TC_02_QueueOperationsTryHere" finished-at="2025-03-05T23:31:46 EST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_QueueOperationsTryHere -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:46 EST" name="tearDown" finished-at="2025-03-05T23:31:46 EST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:46 EST" name="setup" finished-at="2025-03-05T23:31:48 EST" duration-ms="2287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:48 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:50 EST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForQueueOperationsPage(java.util.Map)[pri:13, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:50 EST" name="testPythoncodeForQueueOperationsPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:31:51 EST" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=hello, ExpectedResult=, ExpectedAlert=NameError: name 'hello' is not defined on line 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForQueueOperationsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:51 EST" name="tearDown" finished-at="2025-03-05T23:31:52 EST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:52 EST" name="setup" finished-at="2025-03-05T23:31:54 EST" duration-ms="2432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Navigation_to_queuePage()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:54 EST" name="Navigation_to_queuePage" finished-at="2025-03-05T23:31:56 EST" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_to_queuePage -->
+        <test-method signature="testPythoncodeForQueueOperationsPage(java.util.Map)[pri:13, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:31:56 EST" name="testPythoncodeForQueueOperationsPage" data-provider="TryeditorProvider" finished-at="2025-03-05T23:32:08 EST" duration-ms="11515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pythoncode=print("hello"), ExpectedResult=hello, ExpectedAlert=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPythoncodeForQueueOperationsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNgTests.QueueTest@4372b9b6]" started-at="2025-03-05T23:32:08 EST" name="tearDown" finished-at="2025-03-05T23:32:08 EST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNgTests.QueueTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
