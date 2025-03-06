@@ -18,6 +18,7 @@ import pageobject.Commonpage;
 import pageobject.Homepage;
 import pageobject.LoginPage;
 import utilities.ExcelfileReader;
+import utilities.LoggerLoad;
 import utilities.configFileReader;
 import webdrivermanager.DriverFactory;
 
@@ -34,7 +35,7 @@ public class BaseTest {
 	
 	
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
 	public void setup(String browsername) {
 		 prop =configFileReader.init_prop();
@@ -45,11 +46,12 @@ public class BaseTest {
 	    login.clickGetStartedbutton();
 	    Home = new Homepage(DriverFactory.getDriver());
 	    common = new Commonpage(DriverFactory.getDriver());
+	    LoggerLoad.info("user landed on ds algo portal");
 	    
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
     public void tearDown() {
 		
 		driverFactory .quitDriver();
@@ -65,18 +67,8 @@ public class BaseTest {
 		String password = prop.getProperty("password");
 		login.setPassword(password);
 		login.clickLoginButton();
+		LoggerLoad.info("user logged into ds-algo application");
 	}
-    
-  
-    @DataProvider(name = "loginDataProvider")
-    public Object[][] getExcelData() throws InvalidFormatException, IOException {
-    	//prop =configFileReader.init_prop();
-   	 ExcelfileReader reader = new ExcelfileReader();
-   	 String filepath = configReader.getProperty("FilePath");
-   	 String sheetname  = configReader.getProperty("sheetName");
-   	List<Map<String, String>> excelData = reader.getData(filepath, sheetname);
-   	 return	 convertListTo2DArray(excelData);
-    }
     
     public Object[][] convertListTo2DArray(List<Map<String, String>> list) {
         Object[][] data = new Object[list.size()][1];
