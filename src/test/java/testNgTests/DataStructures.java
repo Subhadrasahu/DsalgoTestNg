@@ -80,9 +80,6 @@ public class DataStructures extends BaseTest{
     	} 
     }
    
-
-    
-    
     
     @Test
     public void navigateToPracticeQuestions() {

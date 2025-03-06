@@ -1,6 +1,7 @@
 package BaseClass;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -13,9 +14,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import pageobject.Commonpage;
 import pageobject.Homepage;
 import pageobject.LoginPage;
 import utilities.ExcelfileReader;
+import utilities.LoggerLoad;
 import utilities.configFileReader;
 import webdrivermanager.DriverFactory;
 
@@ -28,22 +31,11 @@ public class BaseTest {
 	protected LoginPage login;
 	protected Homepage Home;
 	public Logger logger;
+	protected Commonpage common;
 	
 	
-	public void beforeScenario(String browsername) {
-	 prop =configReader.init_prop();
-	//String browsername=prop.getProperty("browser");
-	 //String Browsername =configReader.getBrowser();
-	 //configReader.setBrowserType(browsername);
-	String urlname=prop.getProperty("url");
-	driverFactory = new DriverFactory();
-    driverFactory.init_driver(browsername);
-    DriverFactory.getDriver().get(urlname);
-	 //Logger.info("===== Starting Scenario: " + scenario.getName() + " =====");
 	
-}	
-	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
 	public void setup(String browsername) {
 		 prop =configFileReader.init_prop();
@@ -51,49 +43,50 @@ public class BaseTest {
 		driverFactory.init_driver(browsername);
 		driverFactory.getDriver().get(urlname);
 	    login = new LoginPage(DriverFactory.getDriver());
-	    //login.clickGetStartedbutton();
+	    login.clickGetStartedbutton();
 	    Home = new Homepage(DriverFactory.getDriver());
+	    common = new Commonpage(DriverFactory.getDriver());
+	    LoggerLoad.info("user landed on ds algo portal");
+	    
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
     public void tearDown() {
 		
 		driverFactory .quitDriver();
     }
-    @Test
+	
+    //@Test
 	public void LoginwithValid() {
 		
-		login.clickGetStartedbutton();
+		//login.clickGetStartedbutton();
 		login.SignInBtn();
 		String username = prop.getProperty("username");
 		login.setUsername(username);
 		String password = prop.getProperty("password");
 		login.setPassword(password);
 		login.clickLoginButton();
+		LoggerLoad.info("user logged into ds-algo application");
 	}
-    
-  
-    @DataProvider(name = "loginDataProvider")
-    public Object[][] getExcelData() throws InvalidFormatException, IOException {
-    	//prop =configFileReader.init_prop();
-   	 ExcelfileReader reader = new ExcelfileReader();
-   	 String filepath = configReader.getProperty("FilePath");
-   	 String sheetname = configReader.getProperty("sheetName");
-   	 List<Map<String, String>> excelData = reader.getData(filepath, sheetname);
-   	 
-   	 System.out.println("Exceldata" + excelData.size());
-   	 
-   	 return	 convertListTo2DArray(excelData);
-    }
     
     public Object[][] convertListTo2DArray(List<Map<String, String>> list) {
         Object[][] data = new Object[list.size()][1];
         for (int i = 0; i < list.size(); i++) {
             data[i][0] = list.get(i); // Each row gets one Map
         }
-        System.out.println("data" + data.length);
+        //System.out.println("data" + data.length);
         return data;
+    }
+    
+    @DataProvider(name="TryeditorProvider")
+    public Object[][] getPythonData() throws InvalidFormatException, IOException{
+    	ExcelfileReader reader = new ExcelfileReader();
+    	 String filepath = configReader.getProperty("FilePath");
+       	 String sheetname  = configReader.getProperty("tryeditorSheet");
+       	List<Map<String, String>> excelData = reader.getData(filepath, sheetname);
+       	 return	 convertListTo2DArray(excelData);
+    	
     }
     
 }

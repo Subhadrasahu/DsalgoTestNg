@@ -1,19 +1,26 @@
 package pageobject;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import webdrivermanager.DriverFactory;
 
 
 public class LoginPage {
 
-	public WebDriver driver;
+	public WebDriver driver ; 
 	
 
 	By GetStartedbutton = By.xpath("//a[@href='/home']");
@@ -28,6 +35,7 @@ public class LoginPage {
 	//By Register_onlogin = By.xpath("//a[@href='/register']");
 	
 	public LoginPage(WebDriver driver) {
+		
 		this.driver=driver;
 	}
 	
@@ -137,8 +145,24 @@ public class LoginPage {
 	
 			}
 	
+				public String handleAlert() {
+					
+				Alert alert = driver.switchTo().alert();
+				String alertMessage = alert.getText();
+				alert.accept();
+				return alertMessage;
+				}
 				
-	  
+				public boolean isAlertPresent() {
+					
+			        try {
+			            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Wait up to 2 seconds
+			            wait.until(ExpectedConditions.alertIsPresent());
+			            return true;
+			        } catch (Exception e) {
+			            return false;
+			        }
+			    }
 			}
 
 			

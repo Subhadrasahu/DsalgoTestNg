@@ -81,7 +81,7 @@ public void clickGraphRepresentationsTryHere() {
 }
 
 @Test(dataProvider ="TryeditorProvider")
-public void testPythonCodeforGraphRepresentations(Map<String, String> data) {
+public void testPythonCodeforGraphRepresentations(Map<String, String> data){
 	graph.clickGraphRepresentations();
 	common.clickTryHere();
 	String Pythocode = data.get("Pythoncode");
