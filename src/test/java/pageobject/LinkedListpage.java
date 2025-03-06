@@ -35,10 +35,7 @@ public class LinkedListpage {
 	public void clickIntroduction() {
 		driver.findElement(introduction).click();
 	}
-	public String getIntroduction() {
-	    return driver.getTitle();
-		
-	}
+	
    public String getIntroductiontitle() {
 		return driver.getTitle();
 	}
