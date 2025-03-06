@@ -36,7 +36,7 @@ public class Treepage {
 	private By applicationOfBinaryTrees = By.xpath("//a[@href=\"applications-of-binary-trees\"]");
 	private By BinarySearchTrees = By.xpath("//a[@href=\"binary-search-trees\"]");
 	private By implementationOfBst = By.xpath("//a[@href=\"implementation-of-bst\"]");
-	
+	private By practiceQuestions = By.xpath("//a[@href=\"/tree/practice\"]");
 	
 //3.page actions
 	
@@ -129,5 +129,13 @@ public class Treepage {
 		driver.findElement(texteditor).sendKeys("Hello");
 	}
 	
+	public void ValidInvalidtextEditorOperations (String pythonCode) {
+		driver.findElement(texteditor).sendKeys( pythonCode);
+	}
+	public void practiceQuestionsClick() {
+		driver.findElement(practiceQuestions).click();
+	}
+	
 
+	
 }

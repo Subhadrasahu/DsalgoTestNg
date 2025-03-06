@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseTest;
 import webdrivermanager.DriverFactory;
 
 public class HomeTest extends BaseTest{
