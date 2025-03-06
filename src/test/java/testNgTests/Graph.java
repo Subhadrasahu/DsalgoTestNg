@@ -90,7 +90,7 @@ public void clickGraphRepresentationsTryHere() {
 }
 
 @Test(dataProvider ="TryeditorProvider")
-public void Invalid_pythonCode(Map<String, String> data) {
+public void testPythonCodeforGraphRepresentation(Map<String, String> data) {
 	graph.clickGraphRepresentations();
 	common.clickTryHere();
 	String Pythocode = data.get("Pythoncode");
