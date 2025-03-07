@@ -10,9 +10,10 @@
 		 	<class name="testNgTests.HomeTest"/>
 			<class name="testNgTests.LoginTest" />
 		  	<class name="testNgTests.Registration"/>
+		  	<class name="testNgTests.DataStructures"/>
 			<class name="testNgTests.ArraysTest"/>
 		 	<class name="testNgTests.StackTest"/>
-			<class name="testNgTests.DataStructures"/>
+			<class name="testNgTests.LinkedList"/>
 		 	<class name="testNgTests.Graph"></class>
 			<class name="testNgTests.QueueTest"/>
 			<class name="testNgTests.TreeTest"/>

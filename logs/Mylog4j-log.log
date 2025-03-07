@@ -1572,4 +1572,535 @@
    [INFO ]2025-03-0615:38:07.602[main]utilities.LoggerLoad1)-user logged into ds-algo application
    [INFO ]2025-03-0615:38:24.356[main]utilities.LoggerLoad1)-User landed on DS Algo portal
    [INFO ]2025-03-0615:38:25.256[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:15:53.780[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:15:54.258[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:15:59.037[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:15:59.471[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:02.055[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:04.136[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:04.575[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:09.140[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:09.610[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:12.103[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:12.509[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:14.201[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:14.902[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:17.437[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:17.861[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:16:19.571[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:19.900[main]utilities.LoggerLoad1)-user should land on registration page
+   [INFO ]2025-03-0621:16:21.525[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:21.852[main]utilities.LoggerLoad1)-user should land on login page
+   [INFO ]2025-03-0621:16:23.621[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:24.458[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:26.825[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:27.468[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:16:29.194[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:29.965[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:16:31.592[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:32.674[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:16:34.288[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:34.555[main]utilities.LoggerLoad1)-password field is required
+   [INFO ]2025-03-0621:16:36.068[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:36.304[main]utilities.LoggerLoad1)-username field is required
+   [INFO ]2025-03-0621:16:37.883[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:38.898[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:39.247[main]utilities.LoggerLoad1)-user should land on array page
+   [INFO ]2025-03-0621:16:40.928[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:41.686[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:41.926[main]utilities.LoggerLoad1)-user should land on Graph page
+   [INFO ]2025-03-0621:16:43.555[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:44.442[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:44.816[main]utilities.LoggerLoad1)-user should land on Linked List page
+   [INFO ]2025-03-0621:16:46.507[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:47.395[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:47.699[main]utilities.LoggerLoad1)-user should land on Queue page
+   [INFO ]2025-03-0621:16:49.355[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:50.259[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:16:50.520[main]utilities.LoggerLoad1)-user should land on stack page
+   [INFO ]2025-03-0621:16:53.153[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:55.165[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:57.087[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:16:59.502[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:35.066[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:37.473[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:42.524[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:45.314[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:46.175[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:17:49.689[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:50.472[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:17:54.787[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:17:55.606[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:17:57.544[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:17:58.142[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:17:59.736[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:00.502[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:04.916[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:05.715[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:07.561[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:18:08.142[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:18:09.830[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:10.634[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:14.646[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:15.431[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:17.390[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:18:17.963[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:18:20.005[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:21.059[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:25.243[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:26.119[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:27.956[main]utilities.LoggerLoad1)-Error occurred during submission
+   [INFO ]2025-03-0621:18:28.029[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:18:28.671[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:18:30.440[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:31.254[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:33.802[main]utilities.LoggerLoad1)-Submission Successful
+   [INFO ]2025-03-0621:18:33.872[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:18:34.469[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:18:37.047[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:37.833[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:38.433[main]utilities.LoggerLoad1)-user landed on Applications of Array page
+   [INFO ]2025-03-0621:18:43.273[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:44.127[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:44.795[main]utilities.LoggerLoad1)-user is on Arrays page
+   [INFO ]2025-03-0621:18:47.614[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:48.370[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:53.646[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:54.567[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:55.678[main]utilities.LoggerLoad1)-user is on Arrays in Python
+   [INFO ]2025-03-0621:18:57.659[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:18:58.472[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:18:59.085[main]utilities.LoggerLoad1)-user landed on Applications of ArraBasic Operations in Lists page
+   [INFO ]2025-03-0621:19:03.919[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:04.799[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:06.270[main]utilities.LoggerLoad1)-user landed on practice Questions question3 page
+   [INFO ]2025-03-0621:19:07.953[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:08.913[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:10.322[main]utilities.LoggerLoad1)-user landed on practice Questions question2 page
+   [INFO ]2025-03-0621:19:15.057[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:15.851[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:16.913[main]utilities.LoggerLoad1)-user landed on practice Questions page
+   [INFO ]2025-03-0621:19:18.728[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:19.542[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:20.942[main]utilities.LoggerLoad1)-user landed on practice Questions question1 page
+   [INFO ]2025-03-0621:19:22.586[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:23.441[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:24.758[main]utilities.LoggerLoad1)-user landed on practice Questions question4 page
+   [INFO ]2025-03-0621:19:29.539[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:30.401[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:44.442[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:45.451[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:19:59.100[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:19:59.882[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:20:06.038[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:20:06.891[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:20:23.491[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:20:24.476[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:20:26.005[main]utilities.LoggerLoad1)-user will get alerttext :NameError: name 'hello' is not defined on line 1
+   [INFO ]2025-03-0621:20:30.661[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:20:31.553[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:20:43.220[main]utilities.LoggerLoad1)-user will get output :hello
+   [INFO ]2025-03-0621:20:45.000[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:20:45.862[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:02.410[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:03.202[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:04.427[main]utilities.LoggerLoad1)-hello
+   [INFO ]2025-03-0621:21:06.404[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:07.138[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:08.296[main]utilities.LoggerLoad1)-print("hello")
+   [INFO ]2025-03-0621:21:23.535[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:24.368[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:24.970[main]utilities.LoggerLoad1)-user should land on Applications page
+   [INFO ]2025-03-0621:21:38.149[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:39.021[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:40.298[main]utilities.LoggerLoad1)-alert message : NameError: name 'hello' is not defined on line 1
+   [INFO ]2025-03-0621:21:41.961[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:42.821[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:21:54.978[main]utilities.LoggerLoad1)-output message : hello
+   [INFO ]2025-03-0621:21:56.794[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:21:57.652[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:02.808[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:03.699[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:20.351[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:21.092[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:26.655[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:27.420[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:32.525[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:33.428[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:37.660[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:38.535[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:56.023[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:56.746[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:22:59.263[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:22:59.985[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:23:05.002[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:23:05.713[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:23:11.094[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:23:11.843[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:23:28.667[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:23:29.373[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:23:43.154[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:23:43.896[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:23:50.032[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:23:50.780[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:04.327[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:05.041[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:10.933[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:11.640[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:24.896[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:25.592[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:27.830[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:28.546[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:29.117[main]utilities.LoggerLoad1)-user lnds on Stack page
+   [INFO ]2025-03-0621:24:33.762[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:34.443[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:36.652[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:37.373[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:42.517[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:43.195[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:43.858[main]utilities.LoggerLoad1)-user lnds on Operations in Stack page
+   [INFO ]2025-03-0621:24:48.609[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:49.314[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:24:54.942[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:24:55.731[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:25:01.606[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:25:02.285[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:25:15.825[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:25:16.556[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:25:22.290[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:25:22.994[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:25:37.259[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:25:38.007[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:25:54.199[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:25:55.083[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:26:29.128[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:26:29.899[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:26:46.241[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:26:46.954[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:26:47.495[main]utilities.LoggerLoad1)-user should land on Implementation page
+   [INFO ]2025-03-0621:30:28.357[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:28.839[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:33.481[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:33.859[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:38.367[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:41.530[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:41.927[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:46.374[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:46.755[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:48.272[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:48.683[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:53.040[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:53.422[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:54.971[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:30:55.418[main]utilities.LoggerLoad1)-user should see alert message when user not logged in to application
+   [INFO ]2025-03-0621:30:59.875[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:00.143[main]utilities.LoggerLoad1)-user should land on registration page
+   [INFO ]2025-03-0621:31:01.682[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:01.969[main]utilities.LoggerLoad1)-user should land on login page
+   [INFO ]2025-03-0621:31:03.488[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:04.244[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:06.454[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:07.131[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:31:08.576[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:09.268[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:31:11.318[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:12.416[main]utilities.LoggerLoad1)-login with valid and invalid username and password values
+   [INFO ]2025-03-0621:31:13.935[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:14.126[main]utilities.LoggerLoad1)-password field is required
+   [INFO ]2025-03-0621:31:15.576[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:15.761[main]utilities.LoggerLoad1)-username field is required
+   [INFO ]2025-03-0621:31:17.254[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:17.984[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:18.295[main]utilities.LoggerLoad1)-user should land on array page
+   [INFO ]2025-03-0621:31:19.821[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:20.558[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:20.869[main]utilities.LoggerLoad1)-user should land on Graph page
+   [INFO ]2025-03-0621:31:22.352[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:23.084[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:23.396[main]utilities.LoggerLoad1)-user should land on Linked List page
+   [INFO ]2025-03-0621:31:24.996[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:25.754[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:25.989[main]utilities.LoggerLoad1)-user should land on Queue page
+   [INFO ]2025-03-0621:31:27.459[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:28.168[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:28.441[main]utilities.LoggerLoad1)-user should land on stack page
+   [INFO ]2025-03-0621:31:30.029[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:30.781[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:31:31.096[main]utilities.LoggerLoad1)-user should land on Tree page
+   [INFO ]2025-03-0621:31:32.533[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:34.368[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:36.270[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:31:38.483[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:10.860[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:15.778[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:18.964[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:21.357[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:22.063[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:32:24.137[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:25.013[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:32:41.646[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:42.340[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:32:44.741[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:45.444[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:32:50.500[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:51.162[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:32:54.213[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:32:55.066[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:12.344[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:13.059[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:20.819[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:21.492[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:28.641[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:29.413[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:31.105[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:33:31.677[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:33:34.230[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:35.112[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:42.078[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:42.947[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:45.203[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:33:45.769[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:33:50.484[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:51.196[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:56.574[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:33:57.328[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:33:59.130[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:33:59.680[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:34:04.478[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:05.158[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:12.283[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:12.946[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:14.461[main]utilities.LoggerLoad1)-Error occurred during submission
+   [INFO ]2025-03-0621:34:14.505[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:34:15.047[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:34:17.937[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:18.811[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:20.732[main]utilities.LoggerLoad1)-Submission Successful
+   [INFO ]2025-03-0621:34:20.772[main]utilities.LoggerLoad1)-click submit button
+   [INFO ]2025-03-0621:34:21.327[main]utilities.LoggerLoad1)-expected submittion msgError occurred during submission
+   [INFO ]2025-03-0621:34:26.772[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:27.503[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:28.082[main]utilities.LoggerLoad1)-user landed on Applications of Array page
+   [INFO ]2025-03-0621:34:32.630[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:33.343[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:34.193[main]utilities.LoggerLoad1)-user is on Arrays page
+   [INFO ]2025-03-0621:34:36.751[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:37.439[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:43.373[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:44.081[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:44.770[main]utilities.LoggerLoad1)-user is on Arrays in Python
+   [INFO ]2025-03-0621:34:50.053[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:50.734[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:51.304[main]utilities.LoggerLoad1)-user landed on Applications of ArraBasic Operations in Lists page
+   [INFO ]2025-03-0621:34:57.832[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:34:58.507[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:34:59.767[main]utilities.LoggerLoad1)-user landed on practice Questions question3 page
+   [INFO ]2025-03-0621:35:02.565[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:03.330[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:04.666[main]utilities.LoggerLoad1)-user landed on practice Questions question2 page
+   [INFO ]2025-03-0621:35:09.185[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:09.901[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:10.644[main]utilities.LoggerLoad1)-user landed on practice Questions page
+   [INFO ]2025-03-0621:35:12.248[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:12.995[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:14.354[main]utilities.LoggerLoad1)-user landed on practice Questions question1 page
+   [INFO ]2025-03-0621:35:19.100[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:19.838[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:21.055[main]utilities.LoggerLoad1)-user landed on practice Questions question4 page
+   [INFO ]2025-03-0621:35:23.529[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:24.350[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:40.677[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:41.356[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:35:57.363[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:35:58.091[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:01.073[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:01.793[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:14.923[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:15.671[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:16.818[main]utilities.LoggerLoad1)-user will get alerttext :NameError: name 'hello' is not defined on line 1
+   [INFO ]2025-03-0621:36:21.276[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:22.005[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:33.343[main]utilities.LoggerLoad1)-user will get output :hello
+   [INFO ]2025-03-0621:36:37.867[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:38.609[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:54.800[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:55.500[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:36:56.541[main]utilities.LoggerLoad1)-hello
+   [INFO ]2025-03-0621:36:58.283[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:36:59.007[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:00.027[main]utilities.LoggerLoad1)-print("hello")
+   [INFO ]2025-03-0621:37:14.991[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:15.704[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:16.171[main]utilities.LoggerLoad1)-user should land on Applications page
+   [INFO ]2025-03-0621:37:31.945[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:32.767[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:33.951[main]utilities.LoggerLoad1)-alert message : NameError: name 'hello' is not defined on line 1
+   [INFO ]2025-03-0621:37:35.496[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:36.217[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:47.635[main]utilities.LoggerLoad1)-output message : hello
+   [INFO ]2025-03-0621:37:49.076[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:49.790[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:54.766[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:55.441[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:37:57.688[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:37:58.398[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:38:04.133[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:38:04.979[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:38:10.220[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:38:10.931[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:38:24.606[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:38:25.311[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:38:41.770[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:38:42.479[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:38:44.675[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:38:45.410[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:01.615[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:02.361[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:18.487[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:19.189[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:24.450[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:25.146[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:39.291[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:39.993[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:42.324[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:43.052[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:39:59.284[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:39:59.984[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:40:05.338[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:40:06.029[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:40:23.072[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:40:23.933[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:40:26.909[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:40:27.755[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:40:41.006[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:40:41.692[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:40:47.521[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:40:48.228[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:02.498[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:03.195[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:08.855[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:09.554[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:22.528[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:23.215[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:29.020[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:29.747[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:44.084[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:45.089[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:41:50.878[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:41:51.563[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:08.085[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:08.952[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:11.825[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:12.565[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:26.549[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:27.250[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:30.228[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:30.975[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:47.236[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:47.934[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:53.430[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:54.184[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:42:56.378[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:42:57.118[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:43:02.195[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:43:02.913[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:43:16.006[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:43:16.742[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:43:33.054[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:43:33.787[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:43:39.589[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:43:40.301[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:43:53.507[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:43:54.282[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:00.242[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:01.000[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:16.925[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:17.624[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:22.861[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:23.528[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:24.033[main]utilities.LoggerLoad1)-user lnds on Stack page
+   [INFO ]2025-03-0621:44:26.558[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:27.231[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:32.315[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:33.009[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:36.106[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:36.915[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:37.485[main]utilities.LoggerLoad1)-user lnds on Operations in Stack page
+   [INFO ]2025-03-0621:44:38.948[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:39.725[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:45.281[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:45.976[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:44:48.852[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:44:49.576[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:45:05.809[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:45:06.563[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:45:09.437[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:45:10.174[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:45:26.325[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:45:27.080[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:45:43.323[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:45:44.031[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:45:49.801[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:45:50.499[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:04.426[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:05.198[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:05.680[main]utilities.LoggerLoad1)-user should land on Implementation page
+   [INFO ]2025-03-0621:46:10.119[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:10.852[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:13.896[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:14.558[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:16.513[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:17.240[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:19.808[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:20.520[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:23.176[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:23.885[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:29.632[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:30.340[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:46.322[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:46.991[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:46:52.910[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:46:53.605[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:09.887[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:10.650[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:13.850[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:14.566[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:19.790[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:20.508[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:23.191[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:23.955[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:29.620[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:30.308[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:34.172[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:34.912[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:51.010[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:51.794[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:47:57.835[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:47:58.511[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:11.770[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:12.484[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:17.646[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:18.354[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:20.536[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:21.357[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:27.356[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:28.133[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:34.170[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:34.906[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:38.772[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:39.541[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:48:55.941[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:48:56.741[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:00.184[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:01.027[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:14.485[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:15.226[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:17.679[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:18.403[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:20.681[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:21.383[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:27.239[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:28.063[main]utilities.LoggerLoad1)-user logged into ds-algo application
+   [INFO ]2025-03-0621:49:32.505[main]utilities.LoggerLoad1)-User landed on DS Algo portal
+   [INFO ]2025-03-0621:49:33.282[main]utilities.LoggerLoad1)-user logged into ds-algo application
    

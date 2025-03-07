@@ -7,41 +7,15 @@
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testNgTests.QueueTest">
-        <methods>
-          <include name="TC_01_Implementationusingarray"/>
-          <include name="setup"/>
-          <include name="TC_02_ImplementationusingarrayTryHere"/>
-          <include name="tearDown"/>
-          <include name="TC_01_QueueOperations"/>
-          <include name="TC_01_PracticeQuestions"/>
-          <include name="Navigation_to_queuePage"/>
-          <include name="testPythoncodeForQueueOperationsPage"/>
-          <include name="testPythoncodeForImplementationusingarrayPage"/>
-          <include name="TC_02_ImplementationusingcollectionsdequeTryHere"/>
-          <include name="testPythoncodeForImplementationOfBSTPage"/>
-          <include name="TC_02_QueueOperationsTryHere"/>
-          <include name="testPythoncodeForImplementationusingcollectionsdequePage"/>
-          <include name="TC_01_Implementationusingcollectionsdeque"/>
-        </methods>
-      </class> <!-- testNgTests.QueueTest -->
-      <class name="testNgTests.DataStructures">
+      <class name="testNgTests.Graph">
         <methods>
           <include name="tearDown"/>
+          <include name="clickGraphTryHere"/>
           <include name="setup"/>
           <include name="login"/>
-          <include name="clickTimeComplexityTryHere"/>
+          <include name="clickGraphRepresentationsTryHere"/>
         </methods>
-      </class> <!-- testNgTests.DataStructures -->
-      <class name="testNgTests.TreeTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Navigation_to_TreePage"/>
-          <include name="setup"/>
-          <include name="testPythoncodeForOverviewOfTreePage" invocation-numbers="1"/>
-          <include name="TC_03_clickTryHereForEmptyvalue"/>
-        </methods>
-      </class> <!-- testNgTests.TreeTest -->
+      </class> <!-- testNgTests.Graph -->
       <class name="testNgTests.StackTest">
         <methods>
           <include name="tearDown"/>
@@ -61,23 +35,6 @@
           <include name="testMismatchedPassword"/>
         </methods>
       </class> <!-- testNgTests.Registration -->
-      <class name="testNgTests.HomeTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="clickGetstarted"/>
-          <include name="DataStructure_DropDown"/>
-        </methods>
-      </class> <!-- testNgTests.HomeTest -->
-      <class name="testNgTests.Graph">
-        <methods>
-          <include name="tearDown"/>
-          <include name="clickGraphTryHere"/>
-          <include name="setup"/>
-          <include name="login"/>
-          <include name="clickGraphRepresentationsTryHere"/>
-        </methods>
-      </class> <!-- testNgTests.Graph -->
       <class name="testNgTests.ArraysTest">
         <methods>
           <include name="tearDown"/>
@@ -92,6 +49,69 @@
           <include name="ArrayPracticeQuestion2" invocation-numbers="1"/>
         </methods>
       </class> <!-- testNgTests.ArraysTest -->
+      <class name="testNgTests.TreeTest">
+        <methods>
+          <include name="TC_01_ApplicationsofBinarytrees"/>
+          <include name="testPythoncodeForImplementationinPythonPage"/>
+          <include name="TC_02_ImplementationofBinaryTreesPageTryHere"/>
+          <include name="setup"/>
+          <include name="testPythoncodeForBinaryTreeTraversalsPage"/>
+          <include name="testPythoncodeForApplicationsofBinarytreesPage"/>
+          <include name="TC_02_ApplicationsofBinarytreesPageTryHere"/>
+          <include name="testPythoncodeForTypesOfBinaryTreesPage"/>
+          <include name="TC_02_ImplementationOfBSTPageTryHere"/>
+          <include name="TC_01_BinarySearchTrees"/>
+          <include name="tearDown"/>
+          <include name="TC_01_BinaryTreesPage"/>
+          <include name="Navigation_to_TreePage"/>
+          <include name="TC_01_BinaryTreeTraversals"/>
+          <include name="testPythoncodeForBinarySearchTreesPage"/>
+          <include name="TC_01_ImplementationofBinaryTrees"/>
+          <include name="TC_02_BinaryTreeTraversalsPageTryHere"/>
+          <include name="TC_02_TypesOfBinaryTreesPageTryHere"/>
+          <include name="testPythoncodeForImplementationOfBSTPage"/>
+          <include name="TC_01_TypesOfBinaryTrees"/>
+          <include name="TC_01_ImplementationinPython"/>
+          <include name="TC_02_BinaryTreesPageTryHere"/>
+          <include name="TC_02_ImplementationinPythonPageTryHere"/>
+          <include name="testPythoncodeForImplementationofBinaryTreesPage"/>
+          <include name="testPythoncodeForBinaryTreesPage"/>
+          <include name="TC_02_BinarySearchTreesPageTryHere"/>
+          <include name="TC_01_ImplementationOfBST"/>
+          <include name="TC_03_clickTryHereForEmptyvalue"/>
+          <include name="TC_PracticeQuestions"/>
+        </methods>
+      </class> <!-- testNgTests.TreeTest -->
+      <class name="testNgTests.LinkedList">
+        <methods>
+          <include name="clickDeletionTryHere"/>
+          <include name="clickTypesOfLinkedListTryHere"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="clickIntroductionTryHere"/>
+          <include name="clickCreatingLinkedListTryHere"/>
+          <include name="setup"/>
+          <include name="clickTraversalTryHere"/>
+          <include name="clickImplementLinkedListTryHere"/>
+          <include name="clickInsertionTryHere"/>
+        </methods>
+      </class> <!-- testNgTests.LinkedList -->
+      <class name="testNgTests.HomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="clickGetstarted"/>
+          <include name="DataStructure_DropDown"/>
+        </methods>
+      </class> <!-- testNgTests.HomeTest -->
+      <class name="testNgTests.DataStructures">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="clickTimeComplexityTryHere"/>
+        </methods>
+      </class> <!-- testNgTests.DataStructures -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
