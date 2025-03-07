@@ -15,7 +15,7 @@ public class Homepage {
  private By Register_Button = By.xpath("//a[@href='/register']");
  private By Login_Button = By.xpath("//a[@href='/login']"); 
  private By Error_msg = By.xpath("//div[@class='alert alert-primary']");
- private By Dropdownitems = By.xpath("//div[@class='dropdown-menu show']//a");
+ private By Dropdownitems = By.xpath("//a[@class='dropdown-item']");
  private By DS_getstarted = By.xpath("//a[@href ='data-structures-introduction']");
  private By Array_getstarted = By.xpath("//a[@href ='array']");
  private By LinkedList_getstarted = By.xpath("//a[@href ='linked-list']");

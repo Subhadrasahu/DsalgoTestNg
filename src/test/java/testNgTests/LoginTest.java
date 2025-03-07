@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import BaseClass.BaseTest;
@@ -17,13 +18,14 @@ public class LoginTest extends BaseTest {
 //	@BeforeMethod
 //	public void login() {
 //		
-//		LoginwithValid();
+//		//LoginwithValid();
+//		 login.clickGetStartedbutton();
 //	}
 
  
  @Test(dataProvider = "loginDataProvider", dataProviderClass = DataProviders.class , groups="Dataprovider")
  public void Logintest(Map<String, String> data) throws InvalidFormatException, IOException {
-     login.clickGetStartedbutton();
+	 login.clickGetStartedbutton();
      login.SignInBtn();
 
      // Retrieve test data from the Map passed as the parameter
@@ -45,6 +47,7 @@ public class LoginTest extends BaseTest {
 
  @Test
  public void checkEmptyUserField() {
+	 //login.clickGetStartedbutton();
 	 login.SignInBtn();
 	boolean isRequired = login.getalertforemptyusernamefield();
 	

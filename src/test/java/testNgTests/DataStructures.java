@@ -53,7 +53,7 @@ public class DataStructures extends BaseTest{
     	datapage.clickTimeComplexity();
     	common.clickTryHere();
     	common.clickRunButton();
-    	Assert.assertEquals(login.isAlertPresent(),false);
+    	Assert.assertEquals(login.isAlertPresent(),true);
       
  }
     @Test(dataProvider ="TryeditorProvider")

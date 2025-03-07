@@ -1,13 +1,11 @@
 package webdrivermanager;
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -26,17 +24,17 @@ public class DriverFactory {
 		}
 		
 		else if(browser.equals("firefox")) {
-			// WebDriverManager.firefoxdriver().setup();
+			WebDriverManager.firefoxdriver().setup();
 			 tlDriver.set(new FirefoxDriver());
 		}
 		
 		else if(browser.equals("safari")) {
-			 //WebDriverManager.safaridriver().setup();
+			 WebDriverManager.safaridriver().setup();
 			 tlDriver.set(new SafariDriver());
 		}
 		
 		else if(browser.equals("edge")) {
-			// WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().setup();
 			 tlDriver.set(new EdgeDriver());
 		}
 		
@@ -50,7 +48,7 @@ public class DriverFactory {
 		return getDriver();
 	}
 	
-	public static synchronized WebDriver getDriver() {
+	public synchronized static WebDriver getDriver() {
 		return tlDriver.get();
 		
 	}

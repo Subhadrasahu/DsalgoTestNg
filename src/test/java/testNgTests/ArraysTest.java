@@ -16,7 +16,7 @@ public class ArraysTest extends BaseTest {
 	
 	Arrayspage array;
 	
-	@BeforeMethod(groups= "regression")
+	@BeforeMethod//(groups= "regression")
 	public void Array_Module() {
 		
 		LoginwithValid();
