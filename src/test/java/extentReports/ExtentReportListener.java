@@ -28,7 +28,7 @@ public class ExtentReportListener implements ITestListener {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("OS", System.getProperty("os.name"));
-        extent.setSystemInfo("Tester", "Your Name");
+        extent.setSystemInfo("Tester", "Sumathi");
     }
 
     @Override
