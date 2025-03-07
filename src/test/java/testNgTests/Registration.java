@@ -10,13 +10,16 @@ import webdrivermanager.DriverFactory;
 
 public class Registration extends BaseTest{
 	
+
  public Registrationpage Register;
+
 	
 	@BeforeMethod
 	public void clickGetstarted() {
 		
 		login.clickGetStartedbutton();
 		Register= new Registrationpage(DriverFactory.getDriver());
+
 	} 
 	
 	
@@ -38,8 +41,8 @@ public class Registration extends BaseTest{
     	Home.clickRegisterButton();
         Register.mismatchpassword();
         String errorMsg = Register.mismatchpassworderror();
-        Assert.assertEquals(errorMsg,"Your password can’t be entirely numeric.");
-       // Assert.assertEquals(errorMsg, "Passwords do not match", "Please fill out this field");
+        //Assert.assertEquals(errorMsg,"Your password can’t be entirely numeric.");
+       Assert.assertEquals(errorMsg, "Passwords do not match", "Please fill out this field");
     }
 
    @Test
@@ -63,7 +66,6 @@ public class Registration extends BaseTest{
     	Home.clickRegisterButton();
         Register.validregister();
         String successMsg = Register.successregistrationmsg();
-        //Assert.assertEquals(successMsg, "New Account Created. You are logged in as numpy1741118084648");
         String userid = Register.userid();
 		Assert.assertEquals(successMsg, ("New Account Created. You are logged in as "+ userid.toLowerCase()));
     }
