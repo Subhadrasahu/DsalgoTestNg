@@ -40,11 +40,11 @@ public class BaseTest {
 	protected static WebDriver driver;
 
 	@BeforeMethod//(alwaysRun = true)
-	@Parameters("browser")
+	//@Parameters("browser")
 	public void setup(@Optional String browserName) {
 		prop = configReader.init_prop();
 		String urlName = prop.getProperty("url");
-
+        browserName = prop.getProperty("browser");
 		driver = driverFactory.init_driver(browserName); // Initialize WebDriver here
 		driver.get(urlName);
 
