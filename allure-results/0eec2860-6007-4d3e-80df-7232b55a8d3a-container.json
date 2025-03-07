@@ -1,0 +1,1 @@
+{"uuid":"0eec2860-6007-4d3e-80df-7232b55a8d3a","name":"testNgTests.Graph.login","children":["7f0870ff-fee4-4538-82a6-2ed5deb2c256"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741318982196,"stop":1741318983164}],"afters":[],"start":1741318982196,"stop":1741318983164}

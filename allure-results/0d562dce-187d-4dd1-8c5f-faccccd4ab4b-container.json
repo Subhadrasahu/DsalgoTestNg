@@ -1,0 +1,1 @@
+{"uuid":"0d562dce-187d-4dd1-8c5f-faccccd4ab4b","name":"testNgTests.LinkedList.login","children":["8dd86940-44c4-40b9-bddc-63b311346bff"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741318758487,"stop":1741318759530}],"afters":[],"start":1741318758487,"stop":1741318759530}

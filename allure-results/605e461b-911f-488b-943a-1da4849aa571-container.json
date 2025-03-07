@@ -1,0 +1,1 @@
+{"uuid":"605e461b-911f-488b-943a-1da4849aa571","name":"testNgTests.StackTest.login","children":["666225ab-14ab-4417-8ec3-dc5c77a0d2b0"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741318618285,"stop":1741318619228}],"afters":[],"start":1741318618285,"stop":1741318619228}

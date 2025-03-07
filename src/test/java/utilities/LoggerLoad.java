@@ -4,6 +4,9 @@ import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
 
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
+
 
 public class LoggerLoad {
 	
@@ -40,5 +43,10 @@ public class LoggerLoad {
 		 logger.debug(message);
 
 		}
+
+	public static void log(Status fail, Markup label) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
